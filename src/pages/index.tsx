@@ -4,7 +4,6 @@ export default function HomePage() {
   const [showModal, setShowModal] = useState(false);
   const onButtonClick = () => {
     // make request to scraping api here and get $ value
-    console.log('button clicked!');
     setShowModal(true);
   };
 
@@ -15,8 +14,8 @@ export default function HomePage() {
           how much is this video worth?
         </h1>
         <p className='mb-3'>
-          hey gimme a link to a tiktok or yt video and i'll tell you how much
-          it's worth
+          hey gimme a link to a tiktok or yt video and i&apos;ll tell you how
+          much it&apos;s worth
         </p>
         <input
           className='py-1 pl-2 mb-3 border rounded-md'
