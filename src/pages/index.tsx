@@ -54,10 +54,7 @@ export default function HomePage() {
               className='relative flex flex-col items-center justify-center w-full h-full'
             >
               <p className='mb-2 text-lg'>this video is worth:</p>
-              <p className='text-4xl font-semibold'>$100!</p>
-              <p className='absolute text-xs right-4 bottom-4'>
-                just kidding, this is a wip...
-              </p>
+              <p className='text-4xl font-semibold'>$1,000!</p>
             </div>
           </div>
         </div>
