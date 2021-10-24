@@ -108,7 +108,7 @@ export default function HomePage() {
                   inputRef.current?.blur();
                 }
               }}
-              className='w-full h-16 py-1 pl-5 text-lg font-medium transition bg-white border border-gray-200 shadow-xl outline-none focus:border-2 placeholder-odc-text-gray rounded-xl focus:border-purple-500'
+              className='w-full h-16 py-1 pl-5 pr-4 text-lg font-medium transition bg-white border border-gray-200 shadow-xl outline-none focus:border-2 placeholder-odc-text-gray rounded-xl focus:border-purple-500'
               placeholder='Enter link to YouTube video'
             />
             <div className='absolute flex flex-row w-48 h-12 right-2 top-2'>
