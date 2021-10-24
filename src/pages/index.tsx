@@ -221,7 +221,7 @@ export default function HomePage() {
           </p>
         </section>
 
-        <section className='flex flex-row w-full max-w-2xl mx-auto border-t border-gray-200'>
+        <section className='flex flex-row flex-wrap w-full max-w-2xl mx-auto border-t border-gray-200'>
           <div className='flex flex-col items-center flex-1 p-10'>
             <div className='w-12 h-12 mb-2'>
               <Image
@@ -411,7 +411,7 @@ export default function HomePage() {
             id='modal-bg'
             className='absolute top-0 w-full h-full bg-black opacity-25'
           />
-          <div className='absolute top-0 flex flex-col justify-center h-screen'>
+          <div className='absolute top-0 flex flex-col justify-center h-screen px-3'>
             <div
               id='modal-container'
               className='z-10 w-full max-w-sm py-16 bg-white shadow-lg rounded-xl'
