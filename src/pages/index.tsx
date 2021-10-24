@@ -268,7 +268,7 @@ export default function HomePage() {
                 </li>
               </a>
               <a
-                href='https://linkedin.com/in/itsmnjn'
+                href='https://linkedin.com/in/mnjn'
                 target='_blank'
                 rel='noreferrer'
               >
