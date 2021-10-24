@@ -91,7 +91,7 @@ export default function HomePage() {
 
   return (
     <div className='relative'>
-      <main className='flex flex-col p-3 pt-12'>
+      <main className='flex flex-col p-3 pt-12 pb-0'>
         <section className='flex flex-col max-w-lg mx-auto mb-16'>
           <h1 className='mb-12 text-4xl font-bold text-center md:px-20'>
             How Much Do YouTubers Get Paid? 💰
@@ -221,7 +221,7 @@ export default function HomePage() {
           </p>
         </section>
 
-        <section className='flex flex-row w-full max-w-2xl mx-auto mb-8 border-t border-b border-gray-200'>
+        <section className='flex flex-row w-full max-w-2xl mx-auto border-t border-gray-200'>
           <div className='flex flex-col items-center flex-1 p-10'>
             <div className='w-12 h-12 mb-2'>
               <Image
