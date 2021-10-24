@@ -12,11 +12,12 @@ module.exports = {
         primary: ['Inter', ...fontFamily.sans],
       },
       colors: {
-        primary: {
-          400: '#00E0F3',
-          500: '#00c4fd',
-        },
-        dark: '#222222',
+        'odc-border-gray': '#E2E4E8',
+        'odc-text-gray': '#B2B7C2',
+        'odc-text-dark-gray': '#525C76',
+        'odc-purple': '#8D49F7',
+        'odc-dark-purple': '#6B53FF',
+        'odc-disabled-gray': '#EEEFF2',
       },
       keyframes: {
         flicker: {
@@ -30,9 +31,18 @@ module.exports = {
             filter: 'none',
           },
         },
+        pop: {
+          '0%': {
+            transform: 'scale(0.2)',
+          },
+          '100%': {
+            transform: 'scale(1)',
+          },
+        },
       },
       animation: {
         flicker: 'flicker 3s linear infinite',
+        pop: 'pop 1.2s cubic-bezier(0.16, 1, 0.3, 1)',
       },
     },
   },
