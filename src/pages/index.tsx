@@ -488,7 +488,7 @@ function parseVideoId(url: string) {
 
   if (last(splitUrl)[0] === 'w') {
     const doubleSplitUrl = last(splitUrl).split('=');
-    videoId = last(doubleSplitUrl);
+    videoId = doubleSplitUrl[1];
   } else {
     videoId = last(splitUrl);
   }
